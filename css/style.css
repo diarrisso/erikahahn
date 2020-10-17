@@ -1,0 +1,414 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Lato:wght@400;900&display=swap");
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("/fonts/BrandonGrotesque-Black.eot") format("embedded-opentype"), url("/fonts/BrandonGrotesque-Black.woff") format("woff"), url("/fonts/BrandonGrotesque-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "brandon grotesquelight";
+  src: url("../fonts/brandon_light-webfont.ttf") format("truetype"), url("/fonts/brandon_light-webfont.eot") format("embedded-opentype"), url("/fonts/brandon_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  overflow-x: hidden;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ====== font variable ====== */
+.container {
+  max-width: 1200px !important;
+  margin: auto !important;
+}
+
+.container-arbeiten {
+  max-width: 1653px !important;
+  margin: 0 auto !important;
+}
+
+nav .erikahahn-logo {
+  font-size: 2.55em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5rem;
+  letter-spacing: 2px;
+  padding-top: 5.1vh;
+}
+nav .erikahahn-logo .erikahahn-logo-erika {
+  font-weight: 800;
+}
+
+.header-container {
+  background-image: url("../img/Header-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+  margin-left: 13rem;
+  margin-top: 2.3rem;
+  opacity: 0.4;
+  /* UR  and nelly*/
+  /* für die UR  */
+  /* menu icon hamburger */
+}
+.header-container .flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: space-around;
+  transform: translateY(220px);
+  margin-right: 2rem;
+  letter-spacing: 0.3rem;
+  font-family: "brandon grotesquelight";
+  font-weight: 300;
+}
+.header-container .flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  font-weight: 300;
+  transform: translate(-52px, 70px);
+}
+.header-container .flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  transform: translate(-52px, 70px);
+}
+.header-container .header-container-banner-inner_rotat_two {
+  padding: 0 0 3rem 0;
+}
+.header-container .header-container-banner-inner_rotat_arrow {
+  transform: translateX(5px);
+  margin: 2rem 0;
+}
+.header-container .header-container-banner-inner_bottom {
+  margin-top: 25vh;
+  margin-left: 5rem;
+}
+.header-container .header-container-banner-inner_bottom_text_grow {
+  font-size: 5rem;
+  font-family: "Brandon Grotesque";
+  font-weight: bold;
+}
+.header-container .header-container-banner-inner_bottom_text {
+  transform: translate(255px, 13.4rem);
+  letter-spacing: 4px;
+  font-family: "Brandon Grotesque";
+  font-size: 2em;
+  font-weight: 400;
+}
+.header-container span {
+  color: black !important;
+}
+.header-container .border-botm {
+  position: relative;
+  width: 100px;
+  height: 10px;
+  top: -3.2rem;
+  left: 19.1rem;
+  border-bottom: 3.1px solid black;
+}
+.header-container .border-botm::after {
+  content: "";
+  border-top: 5px solid transparent;
+  border-left: 5px solid black;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  left: 6.2rem;
+  top: 0.234rem;
+}
+.header-container .menu-burger {
+  position: relative;
+  top: -4.2rem;
+  left: -8.2rem;
+}
+
+/* Sektion About Erikahahn */
+.section-about-erikahahn {
+  margin-top: 15vh;
+  color: red;
+}
+.section-about-erikahahn .section-about-erikahahn_container {
+  max-width: 1900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.section-about-erikahahn .section-about-erikahahn-rotate {
+  transform: rotate(270deg);
+  margin-top: 1vh;
+  margin-left: 13rem;
+}
+.section-about-erikahahn .section-about-erikahahn-rotate_titre {
+  font-size: 2.53em;
+  letter-spacing: 7px;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  transform: translate(-3rem, 4rem);
+}
+.section-about-erikahahn .section-about-erikahahn-rotate_titre::after {
+  content: "";
+  border-bottom: solid 3px #a11414;
+  display: block;
+  transform: translate(320px, -19px);
+  width: 115px;
+  margin-left: 1rem;
+}
+.section-about-erikahahn .section-about-erikahahn_text {
+  padding-top: 4.3rem;
+  font-size: 4.182em;
+  max-width: 1300px;
+  width: 100%;
+  font-family: "Brandon Grotesque";
+  line-height: 1.2;
+  margin-left: 2rem;
+}
+.section-about-erikahahn .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+}
+.section-about-erikahahn .flex-container .section-about-erikahahn_story {
+  font-size: 1.4em;
+  width: 1200px;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
+  line-height: 1.5;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin-top: 9vh;
+  column-gap: 90px;
+  margin-left: 8rem;
+}
+.section-about-erikahahn .section-about-erikahahn--btn {
+  width: 200px;
+  margin: 0 auto;
+  padding: 3rem 0 0 13rem;
+}
+
+.section-work {
+  background-color: #ece9e7;
+  margin-top: 15vh;
+  opacity: 0.3;
+}
+.section-work .section-work--b {
+  padding-top: 90.8rem;
+}
+.section-work .section-work--text {
+  font-family: "Inconsolata", monospace;
+  color: red;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: right;
+  width: 100%;
+  max-width: 528px;
+  letter-spacing: 3px;
+  line-height: 2;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.section-work .section-work--text::before {
+  content: "";
+  color: #c50808;
+  display: block;
+  width: 111px;
+  border-top: 3px solid #b31717;
+  transform: translate(421px, -16px);
+  padding-top: 2vh;
+}
+.section-work .section-work--text::after {
+  content: "";
+  color: #7d1f1f;
+  display: block;
+  width: 111px;
+  border-top: 2px solid #c23030;
+  transform: translate(421px, 16px);
+  margin-top: 2vh;
+}
+.section-work .section-work--text .section-work--text_titre {
+  font-weight: bold;
+}
+.section-work .section-work--text .section-work--text_content {
+  padding-top: 0.6rem;
+}
+.section-work .section-work--img--b {
+  width: 100%;
+  position: absolute;
+  top: 30rem;
+  left: 8rem;
+  z-index: 12;
+}
+.section-work .bilder {
+  margin-left: 5rem;
+}
+
+/* section-work--text modifier */
+.b-section-work--text {
+  text-align: left !important;
+  margin-left: 3rem;
+}
+.b-section-work--text::before {
+  content: "";
+  transform: translate(-1px, -1px) !important;
+}
+.b-section-work--text::after {
+  content: "";
+  transform: translate(3px, -1px) !important;
+}
+
+.b-section-work--img--b {
+  top: 24rem !important;
+  left: -12rem !important;
+}
+
+.section-work--b_beta {
+  padding-top: 30vh;
+}
+
+/* block button section work */
+.b-button {
+  display: flex;
+  justify-content: center;
+  padding: 12rem 0;
+}
+.b-button .b-button__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  padding: 15px 60px;
+  border-radius: 50px;
+  border: 2px solid #363535;
+  background: transparent;
+  color: black;
+  font-weight: 300;
+}
+.b-button .b-button__link:hover {
+  color: #14396A !important;
+  background: #fff;
+  text-decoration: none;
+}
+
+/* section-philisophie */
+.section-philisophie {
+  margin: 10rem 0;
+}
+.section-philisophie .section-about-erikahahn-rotate {
+  transform: rotate(270deg);
+  margin-top: 15rem;
+}
+.section-philisophie .b-section-philisophie-titre {
+  font-size: 2.55em;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-family: "Inconsolata", monospace;
+}
+.section-philisophie .b-section-philisophie-titre::after {
+  content: "";
+  border-bottom: solid 2px black;
+  display: block;
+  transform: translate(370px, -19px);
+  width: 100px;
+}
+.section-philisophie .b-section-philisophie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.section-philisophie .b-section-philisophie-text {
+  font-family: "Brandon Grotesque";
+  font-size: 5.43em;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  width: 100%;
+  max-width: 1500px;
+  margin-top: 6rem;
+}
+
+/* section contact */
+.section-contact {
+  background-color: #ece9e7;
+  padding: 15rem 0;
+}
+.section-contact .b-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.section-contact .b-contact--text {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  width: 100%;
+  max-width: 560px;
+  line-height: 2;
+  margin-top: 1rem;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+}
+.section-contact .b-contact--email {
+  margin-top: 5rem;
+  font-size: 3.645em;
+  font-family: "Brandon Grotesque";
+}
+
+/* ======footer ===== */
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 3rem 0;
+}
+.footer-menu .footer-items {
+  padding-right: 5rem;
+}
+.footer-menu .footer-items:not(:last-child):before {
+  content: "";
+  border-bottom: 3.1px solid rgba(0, 0, 0, 0.5);
+  display: block;
+  position: relative;
+  top: 1rem;
+  width: 2rem;
+  transform: translateX(3.5rem);
+  margin-left: auto;
+}
+
+/* ==== Media Querie ==== */
+
+/*# sourceMappingURL=style.css.map */

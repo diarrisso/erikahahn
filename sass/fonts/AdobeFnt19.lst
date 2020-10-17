@@ -1,0 +1,271 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrandonGrotesque-Black
+FamilyName:Brandon Grotesque
+StyleName:Black
+MenuName:Brandon Grotesque Black
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Brandon Grotesque Black
+WritingScript:Roman
+OutlineFileName:\Brandon_blk.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:90892
+FileModTime:1522935013
+NameArray:0,Mac,4,Brandon Grotesque Black
+NameArray:0,Win,1,Brandon Grotesque Black
+NameArray:0,Win,16,Brandon Grotesque
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrandonGrotesque-Light
+FamilyName:Brandon Grotesque
+StyleName:Light
+MenuName:Brandon Grotesque Light
+StyleBits:0
+WeightClass:330
+WidthClass:5
+AngleClass:0
+FullName:Brandon Grotesque Light
+WritingScript:Roman
+OutlineFileName:\Brandon_light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:87268
+FileModTime:1522935013
+NameArray:0,Mac,4,Brandon Grotesque Light
+NameArray:0,Win,1,Brandon Grotesque Light
+NameArray:0,Win,16,Brandon Grotesque
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HijrnotesPERSONALUSEONLY
+FamilyName:Hijrnotes PERSONAL USE ONLY
+StyleName:Regular
+MenuName:Hijrnotes PERSONAL USE ONLY
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Hijrnotes PERSONAL USE ONLY
+WritingScript:Roman
+OutlineFileName:\Hijrnotes_PERSONAL_USE_ONLY.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:222664
+FileModTime:1523379368
+NameArray:0,Mac,18,Hijrnotes PERSONAL USE ONLY
+NameArray:0,Mac,4,Hijrnotes PERSONAL USE ONLY
+NameArray:0,Win,1,Hijrnotes PERSONAL USE ONLY
+NameArray:0,Win,16,Hijrnotes PERSONAL USE ONLY
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrandonText-Bold
+FamilyName:Brandon Text
+StyleName:Bold
+MenuName:Brandon Text Bold
+StyleBits:0
+WeightClass:450
+WidthClass:5
+AngleClass:0
+FullName:Brandon Text Bold
+WritingScript:Roman
+OutlineFileName:\HVD Fonts - BrandonText-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73508
+FileModTime:1394467088
+NameArray:0,Mac,4,Brandon Text Bold
+NameArray:0,Win,1,Brandon Text Bold
+NameArray:0,Win,16,Brandon Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Inconsolata-Bold
+FamilyName:Inconsolata
+StyleName:Bold
+MenuName:Inconsolata
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Inconsolata Bold
+WritingScript:Roman
+OutlineFileName:\Inconsolata-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:109948
+FileModTime:1266534000
+NameArray:0,Mac,4,Inconsolata Bold
+NameArray:0,Win,1,Inconsolata
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Inconsolata-Regular
+FamilyName:Inconsolata
+StyleName:Regular
+MenuName:Inconsolata
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Inconsolata Regular
+WritingScript:Roman
+OutlineFileName:\Inconsolata-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:96964
+FileModTime:1266534000
+NameArray:0,Mac,4,Inconsolata Regular
+NameArray:0,Win,1,Inconsolata
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Black
+FamilyName:Lato
+StyleName:Black
+MenuName:Lato Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Lato Black
+WritingScript:Roman
+OutlineFileName:\Lato-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:114588
+FileModTime:1292371200
+NameArray:0,Mac,4,Lato Black
+NameArray:0,Win,1,Lato Black
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Regular
+FamilyName:Lato
+StyleName:Regular
+MenuName:Lato
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Lato Regular
+WritingScript:Roman
+OutlineFileName:\Lato-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:120196
+FileModTime:1292371200
+NameArray:0,Mac,4,Lato Regular
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Black
+FamilyName:Montserrat
+StyleName:Black
+MenuName:Montserrat Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Black
+WritingScript:Roman
+OutlineFileName:\Montserrat-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:275192
+FileModTime:1323734400
+NameArray:0,Mac,4,Montserrat Black
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Medium
+FamilyName:Montserrat
+StyleName:Medium
+MenuName:Montserrat Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Medium
+WritingScript:Roman
+OutlineFileName:\Montserrat-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:260236
+FileModTime:1323734400
+NameArray:0,Mac,4,Montserrat Medium
+NameArray:0,Win,1,Montserrat Medium
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-SemiBold
+FamilyName:Montserrat
+StyleName:SemiBold
+MenuName:Montserrat SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Montserrat SemiBold
+WritingScript:Roman
+OutlineFileName:\Montserrat-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:260936
+FileModTime:1323734400
+NameArray:0,Mac,4,Montserrat SemiBold
+NameArray:0,Win,1,Montserrat SemiBold
+NameArray:0,Win,16,Montserrat
+%EndFont
+
